@@ -2,7 +2,7 @@
 (function (window, factory) {
     if (typeof exports === 'object') {
         console.log('CommonJS')
-        module.exports = factory;
+        module.exports = factory();
 
 
     } else if (typeof define === 'function') {
@@ -15,13 +15,13 @@
     } else {
         console.log('原生')
 
-        window.geoGuizhou = factory
+        window.geoGuizhou = factory()
 
     }
 })(this, function () {
 
     console.info("贵州省geo地图数据");
-    return {
+    return  {
         "type": "FeatureCollection",
         "features": [
             {

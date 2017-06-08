@@ -123,3 +123,11 @@ gulp.task('connect', function () {
 });
 
 
+
+
+
+gulp.task('watch', ['js'], function () {
+
+    gulp.watch(jsPath, ['js']);
+
+});
