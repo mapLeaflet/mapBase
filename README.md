@@ -23,18 +23,14 @@ BoundaryCanvas(gaode.imga, guizhouData)
 
 ## demo
     
-    说不清楚, 就是调用了一个 cmd的模块, 这个模块里有3个模块
-    [demo1](https://mapleaflet.github.io/mapBase/demo/index_cmd.html) 
+* 说不清楚, 就是调用了一个 cmd的模块, 这个模块里有3个模块
+[demo1](https://mapleaflet.github.io/mapBase/demo/index_cmd.html)     
+
     
-****    
+* 使用cmd 调用了3个模块 
+[demo2](https://mapleaflet.github.io/mapBase/demo/index_cmd_use.html)     
     
-    
-    使用cmd 调用了3个模块
-    [demo2](https://mapleaflet.github.io/mapBase/demo/index_cmd_use.html) 
-    
-    
-****    
-    
-    不使用cmd的
-    [demo2](https://mapleaflet.github.io/mapBase/demo/index.html) 
+
+* 不使用cmd的 
+[demo2](https://mapleaflet.github.io/mapBase/demo/index.html)     
 
